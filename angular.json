@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "law_new": {
+    "cosanex": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/law_new",
+            "outputPath": "dist/cosanex",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -72,8 +72,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "5mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -98,10 +98,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "law_new:build:production"
+              "browserTarget": "cosanex:build:production"
             },
             "development": {
-              "browserTarget": "law_new:build:development"
+              "browserTarget": "cosanex:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -109,7 +109,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "law_new:build"
+            "browserTarget": "cosanex:build"
           }
         },
         "test": {

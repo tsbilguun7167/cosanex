@@ -7,8 +7,6 @@ import { AfterViewInit, Component, ElementRef } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements AfterViewInit {
-  title = 'law_new';
-
   constructor(private element: ElementRef) {}
 
 

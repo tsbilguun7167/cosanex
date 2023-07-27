@@ -1776,7 +1776,7 @@ div#clock span:first-child {
 .site-footer {
     background-color: var(--pbmit-light-color);
     color: var(--pbmit-secondary-color);
-    background-image: url(/assets/images/bg/footer-bg.png);
+    background-image: url('/assets/images/bg/footer-bg.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1891,7 +1891,7 @@ div#clock span:first-child {
 .pbmit-footer-style-1.site-footer {
     background-color: var(--pbmit-secondary-color);
     color: rgba(255, 255, 255,.8);
-    background-image: url(/assets/images/bg/footer-bg2.png);
+    background-image: url('/assets/images/bg/footer-bg2.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2009,7 +2009,7 @@ div#clock span:first-child {
 /*----------------------------------------*/
 .pbmit-title-bar-wrapper {
     background-color: var(--pbmit-light-color);
-    background-image: url(/assets/images/bg/titlebar-bgdark.png);
+    background-image: url('/assets/images/bg/titlebar-bgdark.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2088,7 +2088,7 @@ div#clock span:first-child {
    color: var(--pbmit-global-color);
 }
 .pbmit-title-bar-style-1.pbmit-title-bar-wrapper{
-    background-image: url(/assets/images/bg/titlebarbg2.png);
+    background-image: url('/assets/images/bg/titlebarbg2.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2539,13 +2539,13 @@ body .nav-tabs{
     width: auto;
 }
 .pbmit-bg-imgbox-one{
-    background-image: url(/assets/images/staticbox-01.jpg);
+    background-image: url('/assets/images/staticbox-01.jpg');
 }
 .pbmit-bg-imgbox-two{
-    background-image: url(/assets/images/staticbox-02.jpg);
+    background-image: url('/assets/images/staticbox-02.jpg');
 }
 .pbmit-bg-imgbox-three{
-    background-image: url(/assets/images/staticbox-03.jpg);
+    background-image: url('/assets/images/staticbox-03.jpg');
 }
 .pbmit-static-box-style-1 .pbmit-contentbox {
     position: relative;
@@ -3051,7 +3051,7 @@ a.pbmit-rev-btn-effect-reverse:hover span {
 /* 21 - Horizontal Snap
 /*----------------------------------------*/
 .pbmit-element-horizontal-snap-style-1{
-    background-image: url(/assets/images/hs-bgimg.png);
+    background-image: url('/assets/images/hs-bgimg.png');
     background-position: center left;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -3580,7 +3580,7 @@ a.pbmit-rev-btn-effect-reverse:hover span {
     -webkit-align-items: center;
     align-items: center;
     -ms-flex-align: center;
-    background-image: url(/assets/images/bg/actionbox-bg.jpg);
+    background-image: url('/assets/images/bg/actionbox-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;

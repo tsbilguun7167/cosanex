@@ -18,6 +18,7 @@ import { ServicesComponent } from './services/services.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { CommonModule } from '@angular/common';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { PersonComponent } from './person/person.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     ServicesComponent,
     SliderComponent,
     AboutusComponent,
+    PersonComponent,
   ],
   imports: [
     CommonModule,

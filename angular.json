@@ -25,9 +25,47 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/fontawesome.css",
+              "src/assets/css/flaticon.css",
+              "src/assets/css/pbminfotech-base-icons.css",
+              "src/assets/css/themify-icons.css",
+              "src/assets/css/swiper.min.css",
+              "src/assets/css/magnific-popup.css",
+              "src/assets/css/aos.css",
+              "src/assets/css/shortcode.css",
+              "src/assets/css/base.css",
+              "src/assets/css/style.css",
+              "src/assets/css/responsive.css",
+              "src/assets/revolution/rs6.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/popper.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery.waypoints.min.js",
+              "src/assets/js/jquery.appear.js",
+              "src/assets/js/numinate.min.js",
+              "src/assets/js/swiper.min.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
+              "src/assets/js/circle-progress.js",
+              "src/assets/js/jquery.countdown.min.js",
+              "src/assets/js/aos.js",
+              "src/assets/js/circle-progress.min.js",
+              "src/assets/js/gsap.js",
+              "src/assets/js/ScrollTrigger.js",
+              "src/assets/js/SplitText.js",
+              "src/assets/js/cursor.js",
+              "src/assets/js/magnetic.js",
+              "src/assets/js/hammer.min.js",
+              "src/assets/js/timeline.js",
+              "src/assets/js/gsap-animation.js",
+              "src/assets/js/scripts.js",
+              "src/assets/revolution/rslider.js",
+              "src/assets/revolution/rbtools.min.js",
+              "src/assets/revolution/rs6.min.js"
+            ]
           },
           "configurations": {
             "production": {

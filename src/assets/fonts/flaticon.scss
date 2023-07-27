@@ -1,0 +1,367 @@
+$flaticon_attortly-icon-font: "flaticon_attortly";
+@font-face {
+    font-family: $flaticon_attortly-icon-font;
+    src: url("/assets/fonts/flaticon_attortly.ttf?e3a0a1243cd9c45848c1043829a335c4") format("truetype"),
+    url("/assets/fonts/flaticon_attortly.woff?e3a0a1243cd9c45848c1043829a335c4") format("woff"),
+    url("/assets/fonts/flaticon_attortly.woff2?e3a0a1243cd9c45848c1043829a335c4") format("woff2"),
+    url("/assets/fonts/flaticon_attortly-icon.eot?e3a0a1243cd9c45848c1043829a335c4#iefix") format("embedded-opentype"),
+    url("/assets/fonts/flaticon_attortly-icon.svg?e3a0a1243cd9c45848c1043829a335c4#flaticon_attortly-icon") format("svg");
+}
+
+i[class^="flaticon_attortly-"]:before,
+i[class*="pbmit-attorly-icon-"]:before {
+    font-family: flaticon_attortly !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_attortly-icon-map: ( "001-agreement": "\f101",
+"002-justice-scale": "\f102",
+"003-gavel": "\f103",
+"004-courthouse": "\f104",
+"005-justice-scale-1": "\f105",
+"006-police-shield": "\f106",
+"007-court": "\f107",
+"008-police-badge": "\f108",
+"009-certificate": "\f109",
+"010-law-book": "\f10a",
+"011-contract": "\f10b",
+"012-investigation": "\f10c",
+"013-parchment": "\f10d",
+"014-briefcase": "\f10e",
+"015-nightstick": "\f10f",
+"016-handcuffs": "\f110",
+"017-pistol": "\f111",
+"018-umbrella": "\f112",
+"019-police-station": "\f113",
+"020-jail": "\f114",
+"021-police-shield-1": "\f115",
+"022-police-station-1": "\f116",
+"023-roman-law": "\f117",
+"024-security": "\f118",
+"025-military": "\f119",
+"026-fingerprint": "\f11a",
+"027-gavel-1": "\f11b",
+"028-parchment-1": "\f11c",
+"029-courthouse-1": "\f11d",
+"030-court-1": "\f11e",
+"031-jail-1": "\f11f",
+"032-briefcase-1": "\f120",
+"033-handcuffs-1": "\f121",
+"034-investigation-1": "\f122",
+"035-cctv": "\f123",
+"036-crime-scene": "\f124",
+"037-pistol-1": "\f125",
+"038-justice-scale-2": "\f126",
+"039-police-badge-1": "\f127",
+"040-prisoner": "\f128",
+"041-cash": "\f129",
+"042-bandit": "\f12a",
+"043-safe": "\f12b",
+"044-law-book-1": "\f12c",
+"045-police-badge-2": "\f12d",
+"046-emergency": "\f12e",
+"047-judge": "\f12f",
+"048-camera": "\f130",
+"049-contract-1": "\f131",
+"050-down-arrow": "\f132",
+"051-download": "\f133",
+"052-dot": "\f134",
+"053-right-up": "\f135",
+"054-up-right-arrow": "\f136",
+"056-auction": "\f137",
+"057-courthouse-2": "\f138",
+"058-bill": "\f139",
+"059-law": "\f13a",
+"060-arrow": "\f13b",
+"061-gavel-2": "\f13c",
+"063-law-1": "\f13d",
+"065-customer-service": "\f13e",
+"074-oath": "\f13f",
+"075-honesty": "\f140",
+"076-hammer": "\f141",
+"077-phone-call": "\f142",
+"078-chat": "\f143",
+"079-at": "\f144",
+"080-news": "\f145",
+);
+.flaticon-001-agreement:before {
+    content: map-get($flaticon_attortly-icon-map, "001-agreement");
+}
+
+.flaticon-002-justice-scale:before {
+    content: map-get($flaticon_attortly-icon-map, "002-justice-scale");
+}
+
+.flaticon-003-gavel:before {
+    content: map-get($flaticon_attortly-icon-map, "003-gavel");
+}
+
+.flaticon-004-courthouse:before {
+    content: map-get($flaticon_attortly-icon-map, "004-courthouse");
+}
+
+.flaticon-005-justice-scale-1:before {
+    content: map-get($flaticon_attortly-icon-map, "005-justice-scale-1");
+}
+
+.flaticon-006-police-shield:before {
+    content: map-get($flaticon_attortly-icon-map, "006-police-shield");
+}
+
+.flaticon-007-court:before {
+    content: map-get($flaticon_attortly-icon-map, "007-court");
+}
+
+.flaticon-008-police-badge:before {
+    content: map-get($flaticon_attortly-icon-map, "008-police-badge");
+}
+
+.flaticon-009-certificate:before {
+    content: map-get($flaticon_attortly-icon-map, "009-certificate");
+}
+
+.flaticon-010-law-book:before {
+    content: map-get($flaticon_attortly-icon-map, "010-law-book");
+}
+
+.flaticon-011-contract:before {
+    content: map-get($flaticon_attortly-icon-map, "011-contract");
+}
+
+.flaticon-012-investigation:before {
+    content: map-get($flaticon_attortly-icon-map, "012-investigation");
+}
+
+.flaticon-013-parchment:before {
+    content: map-get($flaticon_attortly-icon-map, "013-parchment");
+}
+
+.flaticon-014-briefcase:before {
+    content: map-get($flaticon_attortly-icon-map, "014-briefcase");
+}
+
+.flaticon-015-nightstick:before {
+    content: map-get($flaticon_attortly-icon-map, "015-nightstick");
+}
+
+.flaticon-016-handcuffs:before {
+    content: map-get($flaticon_attortly-icon-map, "016-handcuffs");
+}
+
+.flaticon-017-pistol:before {
+    content: map-get($flaticon_attortly-icon-map, "017-pistol");
+}
+
+.flaticon-018-umbrella:before {
+    content: map-get($flaticon_attortly-icon-map, "018-umbrella");
+}
+
+.flaticon-019-police-station:before {
+    content: map-get($flaticon_attortly-icon-map, "019-police-station");
+}
+
+.flaticon-020-jail:before {
+    content: map-get($flaticon_attortly-icon-map, "020-jail");
+}
+
+.flaticon-021-police-shield-1:before {
+    content: map-get($flaticon_attortly-icon-map, "021-police-shield-1");
+}
+
+.flaticon-022-police-station-1:before {
+    content: map-get($flaticon_attortly-icon-map, "022-police-station-1");
+}
+
+.flaticon-023-roman-law:before {
+    content: map-get($flaticon_attortly-icon-map, "023-roman-law");
+}
+
+.flaticon-024-security:before {
+    content: map-get($flaticon_attortly-icon-map, "024-security");
+}
+
+.flaticon-025-military:before {
+    content: map-get($flaticon_attortly-icon-map, "025-military");
+}
+
+.flaticon-026-fingerprint:before {
+    content: map-get($flaticon_attortly-icon-map, "026-fingerprint");
+}
+
+.flaticon-027-gavel-1:before {
+    content: map-get($flaticon_attortly-icon-map, "027-gavel-1");
+}
+
+.flaticon-028-parchment-1:before {
+    content: map-get($flaticon_attortly-icon-map, "028-parchment-1");
+}
+
+.flaticon-029-courthouse-1:before {
+    content: map-get($flaticon_attortly-icon-map, "029-courthouse-1");
+}
+
+.flaticon-030-court-1:before {
+    content: map-get($flaticon_attortly-icon-map, "030-court-1");
+}
+
+.flaticon-031-jail-1:before {
+    content: map-get($flaticon_attortly-icon-map, "031-jail-1");
+}
+
+.flaticon-032-briefcase-1:before {
+    content: map-get($flaticon_attortly-icon-map, "032-briefcase-1");
+}
+
+.flaticon-033-handcuffs-1:before {
+    content: map-get($flaticon_attortly-icon-map, "033-handcuffs-1");
+}
+
+.flaticon-034-investigation-1:before {
+    content: map-get($flaticon_attortly-icon-map, "034-investigation-1");
+}
+
+.flaticon-035-cctv:before {
+    content: map-get($flaticon_attortly-icon-map, "035-cctv");
+}
+
+.flaticon-036-crime-scene:before {
+    content: map-get($flaticon_attortly-icon-map, "036-crime-scene");
+}
+
+.flaticon-037-pistol-1:before {
+    content: map-get($flaticon_attortly-icon-map, "037-pistol-1");
+}
+
+.flaticon-038-justice-scale-2:before {
+    content: map-get($flaticon_attortly-icon-map, "038-justice-scale-2");
+}
+
+.flaticon-039-police-badge-1:before {
+    content: map-get($flaticon_attortly-icon-map, "039-police-badge-1");
+}
+
+.flaticon-040-prisoner:before {
+    content: map-get($flaticon_attortly-icon-map, "040-prisoner");
+}
+
+.flaticon-041-cash:before {
+    content: map-get($flaticon_attortly-icon-map, "041-cash");
+}
+
+.flaticon-042-bandit:before {
+    content: map-get($flaticon_attortly-icon-map, "042-bandit");
+}
+
+.flaticon-043-safe:before {
+    content: map-get($flaticon_attortly-icon-map, "043-safe");
+}
+
+.flaticon-044-law-book-1:before {
+    content: map-get($flaticon_attortly-icon-map, "044-law-book-1");
+}
+
+.flaticon-045-police-badge-2:before {
+    content: map-get($flaticon_attortly-icon-map, "045-police-badge-2");
+}
+
+.flaticon-046-emergency:before {
+    content: map-get($flaticon_attortly-icon-map, "046-emergency");
+}
+
+.flaticon-047-judge:before {
+    content: map-get($flaticon_attortly-icon-map, "047-judge");
+}
+
+.flaticon-048-camera:before {
+    content: map-get($flaticon_attortly-icon-map, "048-camera");
+}
+
+.flaticon-049-contract-1:before {
+    content: map-get($flaticon_attortly-icon-map, "049-contract-1");
+}
+
+.flaticon-050-down-arrow:before {
+    content: map-get($flaticon_attortly-icon-map, "050-down-arrow");
+}
+
+.flaticon-051-download:before {
+    content: map-get($flaticon_attortly-icon-map, "051-download");
+}
+
+.flaticon-052-dot:before {
+    content: map-get($flaticon_attortly-icon-map, "052-dot");
+}
+
+.flaticon-053-right-up:before {
+    content: map-get($flaticon_attortly-icon-map, "053-right-up");
+}
+
+.flaticon-054-up-right-arrow:before {
+    content: map-get($flaticon_attortly-icon-map, "054-up-right-arrow");
+}
+
+.flaticon-056-auction:before {
+    content: map-get($flaticon_attortly-icon-map, "056-auction");
+}
+
+.flaticon-057-courthouse-2:before {
+    content: map-get($flaticon_attortly-icon-map, "057-courthouse-2");
+}
+
+.flaticon-058-bill:before {
+    content: map-get($flaticon_attortly-icon-map, "058-bill");
+}
+
+.flaticon-059-law:before {
+    content: map-get($flaticon_attortly-icon-map, "059-law");
+}
+
+.flaticon-060-arrow:before {
+    content: map-get($flaticon_attortly-icon-map, "060-arrow");
+}
+
+.flaticon-061-gavel-2:before {
+    content: map-get($flaticon_attortly-icon-map, "061-gavel-2");
+}
+
+.flaticon-063-law-1:before {
+    content: map-get($flaticon_attortly-icon-map, "063-law-1");
+}
+
+.flaticon-065-customer-service:before {
+    content: map-get($flaticon_attortly-icon-map, "065-customer-service");
+}
+
+.flaticon-074-oath:before {
+    content: map-get($flaticon_attortly-icon-map, "074-oath");
+}
+
+.flaticon-075-honesty:before {
+    content: map-get($flaticon_attortly-icon-map, "075-honesty");
+}
+
+.flaticon-076-hammer:before {
+    content: map-get($flaticon_attortly-icon-map, "076-hammer");
+}
+
+.flaticon-077-phone-call:before {
+    content: map-get($flaticon_attortly-icon-map, "077-phone-call");
+}
+
+.flaticon-078-chat:before {
+    content: map-get($flaticon_attortly-icon-map, "078-chat");
+}
+
+.flaticon-079-at:before {
+    content: map-get($flaticon_attortly-icon-map, "079-at");
+}
+
+.flaticon-080-news:before {
+    content: map-get($flaticon_attortly-icon-map, "080-news");
+}

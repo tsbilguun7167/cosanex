@@ -16,7 +16,7 @@ export const services = [
     id: '02',
     img: 'assets/images/services/service-01.jpg',
     name: 'Fintech',
-    desc: 'Licensing and Registration. Assisting in navigating the licensing process',
+    desc: 'Licensing and Registration. Assisting in navigating',
     list: [
       'Licensing and Registration. Assisting in navigating the licensing process, preparing, and submitting applications, and ensuring compliance with the requirements set forth by regulatory bodies such as financial regulator committee.',
       'Contract Drafting and Negotiation. Fintech businesses engage in a variety of contracts. We are helping draft and negotiate these contracts to protect the interests of Fintech companies, address liability issues, define intellectual property rights, establish clear terms of service, and manage risk.',
@@ -93,7 +93,7 @@ export const services = [
     id: '09',
     img: 'assets/images/services/service-01.jpg',
     name: 'Mining',
-    desc: 'Highly-experienced in consulting in the field of mining law',
+    desc: 'Highly-experienced in consulting in the field',
     list: [
       'highly-experienced in consulting in the field of mining law. Providing a wide range of legal services with the international standards',
       'We provide acquisition and management of mining rights and or titles, analysis, development, negotiation and renegotiation of mining contracts, completion of legal and due diligence, legal advice for the financing of mining projects during mergers and acquisitions in the mining sector.'

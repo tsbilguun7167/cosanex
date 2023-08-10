@@ -589,7 +589,7 @@ div#clock span:first-child {
 }
 .pbmit-service-style-1 .pbmit-service-btn .btn-arrow,
 .pbmit-service-style-1 .pbminfotech-box-content {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 .swiper-slide-active .pbmit-service-style-1 .pbminfotech-box-content {
     border:none;

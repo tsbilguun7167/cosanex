@@ -18,11 +18,14 @@ INDEX:
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700');
  :root {
      --pbmit-global-color: #b8967e;
-     --pbmit-secondary-color: #0a1d35;
+     --pbmit-secondary-color: #2C4FBE;
+     /* --pbmit-secondary-color: #0a1d35; */
      --pbmit-light-color: #f7f6f4;
      --pbmit-white-color: #ffffff;
-     --pbmit-blackish-color: #0a1d35;
-     --pbmit-link-color-normal: #0a1d35;
+     --pbmit-blackish-color: #2C4FBE;
+     /* --pbmit-blackish-color: #0a1d35; */
+     --pbmit-link-color-normal: #2C4FBE;
+     /* --pbmit-link-color-normal: #0a1d35; */
      --pbmit-link-color-hover: #b8967e;
      --pbmit-global-color-rgb: rgb(184, 150, 126);
      --pbmit-secondary-color-rgb:rgb(10, 29, 53);
@@ -33,7 +36,8 @@ INDEX:
      --pbmit-body-typography-line-height: 1.8;
      --pbmit-body-typography-color: #13263e;
      --pbmit-heading-typography-font-family: 'Montserrat', serif;
-     --pbmit-heading-color: #0a1d35;
+     --pbmit-heading-color: #2C4FBE;
+     /* --pbmit-heading-color: #0a1d35; */
      --pbmit-heading-font-variant:normal;
      --pbmit-btn-typography-font-family: 'Montserrat', serif;
      --pbmit-btn-typography-variant: regular;

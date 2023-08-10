@@ -2,7 +2,7 @@
 export const services = [
   {
     id: '01',
-    img: 'assets/images/services/service-01.jpg',
+    img: 'assets/images/services/service-01.jpeg',
     name: 'Finance',
     desc: 'Legal support of financial institutions operations',
     list: [
@@ -14,7 +14,7 @@ export const services = [
   },
   {
     id: '02',
-    img: 'assets/images/services/service-01.jpg',
+    img: 'assets/images/services/service-02.jpeg',
     name: 'Fintech',
     desc: 'Licensing and Registration. Assisting in navigating',
     list: [
@@ -24,7 +24,7 @@ export const services = [
   },
   {
     id: '03',
-    img: 'assets/images/services/service-01.jpg',
+    img: 'assets/images/services/service-03.jpeg',
     name: 'Securities/Capital market',
     desc: 'Providing extensive and effective capital markets and',
     list: [
@@ -34,7 +34,7 @@ export const services = [
   },
   {
     id: '04',
-    img: 'assets/images/services/service-01.jpg',
+    img: 'assets/images/services/service-04.jpeg',
     name: 'Corporate and Commercial',
     desc: 'Corporate governance and compliance',
     list: [
@@ -46,7 +46,7 @@ export const services = [
   },
   {
     id: '05',
-    img: 'assets/images/services/service-01.jpg',
+    img: 'assets/images/services/service-05.jpeg',
     name: 'M&A',
     desc: 'We offer a comprehensive set of M&amp;A legal services',
     list: [
@@ -57,7 +57,7 @@ export const services = [
   },
   {
     id: '06',
-    img: 'assets/images/services/service-01.jpg',
+    img: 'assets/images/services/service-06.webp',
     name: 'Regulatory compliance',
     desc: 'Legal services in regulatory compliance help organizations',
     list: [
@@ -69,7 +69,7 @@ export const services = [
   },
   {
     id: '07',
-    img: 'assets/images/services/service-01.jpg',
+    img: 'assets/images/services/service-07.jpeg',
     name: 'Construction, Infrastructure',
     desc: 'Preparing, reviewing or negotiating construction',
     list: [
@@ -79,7 +79,7 @@ export const services = [
   },
   {
     id: '08',
-    img: 'assets/images/services/service-01.jpg',
+    img: 'assets/images/services/service-08.jpeg',
     name: 'Real Estate',
     desc: 'Legal advice and on sale or purchase of real estate',
     list: [
@@ -91,7 +91,7 @@ export const services = [
   },
   {
     id: '09',
-    img: 'assets/images/services/service-01.jpg',
+    img: 'assets/images/services/service-09.webp',
     name: 'Mining',
     desc: 'Highly-experienced in consulting in the field',
     list: [
@@ -101,7 +101,7 @@ export const services = [
   },
   {
     id: '10',
-    img: 'assets/images/services/service-01.jpg',
+    img: 'assets/images/services/service-10.jpeg',
     name: 'Energy',
     desc: 'Regulatory and Permitting Compliance',
     list: [
@@ -110,7 +110,7 @@ export const services = [
   },
   {
     id: '11',
-    img: 'assets/images/services/service-01.jpg',
+    img: 'assets/images/services/service-11.jpeg',
     name: 'Pharmaceutical industry',
     desc: 'Legal support of international pharmaceutical companies',
     list: [
@@ -121,7 +121,7 @@ export const services = [
   },
   {
     id: '12',
-    img: 'assets/images/services/service-01.jpg',
+    img: 'assets/images/services/service-12.png',
     name: 'Arbitration',
     desc: 'Legal support of financial institutions operations',
     list: [
@@ -132,7 +132,7 @@ export const services = [
   },
   {
     id: '13',
-    img: 'assets/images/services/service-01.jpg',
+    img: 'assets/images/services/service-13.jpeg',
     name: 'Publishing industry',
     desc: 'Helping navigate the legal issues of an evolving industry.',
     list: [

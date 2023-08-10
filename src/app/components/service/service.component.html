@@ -34,9 +34,9 @@
                 <div class="d-flex">
                   <div
                     class="pbmit-service-image-wrapper"
-                    style="
-                      background-image: url('assets/images/services/service-01.jpg');
-                    "
+                    [ngStyle]="{
+                      'background-image': 'url('+slide.img+')',
+                    }"
                   >
                     <div class="pbmit-featured-img-wrapper">
                       <div class="pbmit-featured-wrapper">

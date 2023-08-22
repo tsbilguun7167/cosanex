@@ -5,29 +5,18 @@
 >
   <div class="container">
     <div class="pbmit-heading text-left bg-color-dark animation-style2">
-      <h2 class="pbmit-title">
+      <!-- <h2 class="pbmit-title">
         We are Provided Especially<br />
         Skilled Services to you.
-      </h2>
+      </h2> -->
     </div>
   </div>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-3" *ngFor="let slide of sliders; let i = index">
         <!-- class="swiper-slider pbmit-element-service-style-1" -->
-        <swiper-container
-          data-cursor-text="Drag"
-          data-loop="true"
-          data-autoplay="false"
-          data-dots="false"
-          data-arrows="false"
-          slides-per-view="2.5"
-          spaceBetween="30"
-          data-effect="slide"
-        >
           <!-- <div class="swiper-wrapper"> -->
           <!-- <div class="pbmit-ele-header-area"></div> -->
-          <swiper-slide class="swiper-slide" *ngFor="let slide of sliders; let i = index">
             <!-- Slide1 -->
             <article class="pbmit-service-style-1">
               <div class="pbminfotech-post-item">
@@ -49,13 +38,13 @@
                     </div>
                   </div>
                   <div class="pbminfotech-box-content pbmit-text-color-white">
-                    <div class="pbminfotech-box-number">{{slide.id}}</div>
+                    <!-- <div class="pbminfotech-box-number">{{slide.id}}</div> -->
                     <div style="height: 98px;">
                       <h3 class="pbmit-service-title">
                         <a href="#">{{slide.name}}</a>
                       </h3>
                     </div>
-                    <div class="pbmit-service-content">
+                    <div class="pbmit-service-content" style="height: 135px;">
                       <div class="at-above-post-homepage addthis_tool"></div>
                       <p>
                         {{slide.desc}}
@@ -74,9 +63,7 @@
                 </div>
               </div>
             </article>
-          </swiper-slide>
           <!-- </div> -->
-        </swiper-container>
       </div>
     </div>
   </div>

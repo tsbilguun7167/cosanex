@@ -112,7 +112,7 @@ export const services = [
     id: '11',
     img: 'assets/images/services/service-11.jpeg',
     name: 'Pharmaceutical industry',
-    desc: 'Legal support of international pharmaceutical companies',
+    desc: 'Legal support of pharmaceutical companies',
     list: [
       'Legal support of international pharmaceutical companies operating in Mongolia',
       'Legal advice and preparing, reviewing, or negotiating relevant operational and commercial contracts, agreements on the circulation of drugs, medical devices, dietary supplements',
@@ -140,5 +140,26 @@ export const services = [
       'Providing with tailored advice on cross-media and convergence deals',
       'Expert legal advice about copyright, free speech, business disputes, and more.'
     ],
-  }
+  },
+  {
+    id: '14',
+    img: 'assets/images/services/service-14.jpeg',
+    name: 'Taxation',
+    desc: 'Providing Client with information and advisory.',
+    list: [
+      'Providing Client with information and advisory opinions regarding the taxation laws.',
+      'Responding to the Client’s tax inquiries in connection with the daily operation or service contracts (via email and phone) from the legal aspect.',
+    ],
+  },
+  {
+    id: '15',
+    img: 'assets/images/services/service-15.jpeg',
+    name: 'Employment',
+    desc: 'Providing Client with information and advisory.',
+    list: [
+      'Providing Client with information and advisory opinions regarding the Labor Law of Mongolia.',
+      'Responding to the Client’s inquiries in connection with employment matters (via email and phone) from the legal aspect.',
+      'Draft, review and revise of the employment documents including but not limited to employment agreement, internal regulations, relevant resolutions and orders related to employment.'
+    ],
+  },
 ];

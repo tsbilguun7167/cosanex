@@ -12,7 +12,6 @@ export class HomeComponent {
       {name: 'description', content: 'Cosanex - Legal Services'},
       {name: 'author', content: 'Blueprint Solutions LLC'},
       {name: 'keywords', content: 'cosanex, legal, legal-services, law, law-firm'},
-      {name: 'google-site-verification', content: 'uUAmbDwJGWmbXtzG9VvWZF6bHXjA23hd35M-vAJzPng'},
     ]);
     this.setTitle('Home');
   }

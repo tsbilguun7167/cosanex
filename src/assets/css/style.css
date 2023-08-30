@@ -996,15 +996,15 @@ img {
   font-weight: normal;
   color: #0a1d35;
   position: relative;
-  padding-left: 30px;
+  /* padding-left: 30px; */
   margin-bottom: 30px;
 }
 .sidebar .widget .widget-title::before {
-  position: absolute;
+  /* position: absolute;
   left: 0;
   font-family: "pbminfotech-base-icons";
   content: "//";
-  font-weight: bold;
+  font-weight: bold; */
 }
 .sidebar .widget-categories ul li {
   margin: 2px 0;

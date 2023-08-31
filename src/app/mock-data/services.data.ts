@@ -79,7 +79,7 @@ export const services = [
   },
   {
     id: '08',
-    img: 'assets/images/services/service-08.jpeg',
+    img: 'assets/images/services/service-08.jpg',
     name: 'Real Estate',
     desc: 'Legal advice and on sale or purchase of real estate',
     list: [

@@ -59,7 +59,7 @@ body {
         content:none
     }
 	.pbmit-slider-area {
-		min-height: 0px;
+		min-height: 100vh;
 	}
 	/*=== Header ===*/
 	.pbmit-slider-social {
@@ -599,7 +599,7 @@ body {
 		min-height: auto;
 	}
     .site-header .site-branding img {
-		max-height: 50px;
+		max-height: 30px;
 	}
     .site-header .sticky-header .site-branding img {
 		 max-height: 35px;
@@ -1468,11 +1468,11 @@ body {
 		padding-top: 50px;
 	}
 	.header-style-1 .site-branding{
-		padding: 0 24px;
+		padding: 0 16px;
 		margin-right: 0px;
 	}
 	.site-title{
-		line-height: 70px;
+		line-height: 50px;
 	}
 	/** Homepage 02 **/
 	.pbmit-service-style-2 .pbmit-service-title {

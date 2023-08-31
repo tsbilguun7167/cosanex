@@ -1,0 +1,21 @@
+.service-card {
+  display: block;
+  border: 1px solid !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  color:#fff;
+}
+
+.service-item {
+  padding: 1rem;
+  /* color: #fff; */
+}
+
+.service-card:hover {
+  background-color: #fff;
+  color: #0a1d45;
+  transition: 0.3s ease-in-out;
+}
+
+.custom-img-wrapper {
+  margin: -1px;
+}

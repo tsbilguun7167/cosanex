@@ -3,67 +3,28 @@
   class="service-section-home1 pbmit-element-service-style-1"
   data-cursor="global-color"
 >
-  <div class="container">
-    <div class="pbmit-heading text-left bg-color-dark animation-style2">
-      <!-- <h2 class="pbmit-title">
-        We are Provided Especially<br />
-        Skilled Services to you.
-      </h2> -->
-    </div>
-  </div>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-3" *ngFor="let slide of sliders; let i = index">
-        <!-- class="swiper-slider pbmit-element-service-style-1" -->
-          <!-- <div class="swiper-wrapper"> -->
-          <!-- <div class="pbmit-ele-header-area"></div> -->
-            <!-- Slide1 -->
-            <article class="pbmit-service-style-1">
-              <div class="pbminfotech-post-item">
-                <div class="d-flex">
-                  <div
-                    class="pbmit-service-image-wrapper"
-                    [ngStyle]="{
-                      'background-image': 'url('+slide.img+')',
-                    }"
-                  >
-                    <div class="pbmit-featured-img-wrapper">
-                      <div class="pbmit-featured-wrapper">
-                        <img
-                          [src]="slide.img"
-                          class="img-fluid"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="pbminfotech-box-content pbmit-text-color-white">
-                    <!-- <div class="pbminfotech-box-number">{{slide.id}}</div> -->
-                    <div style="height: 98px;">
-                      <h3 class="pbmit-service-title">
-                        <a href="#">{{slide.name}}</a>
-                      </h3>
-                    </div>
-                    <div class="pbmit-service-content" style="height: 135px;">
-                      <div class="at-above-post-homepage addthis_tool"></div>
-                      <p>
-                        {{slide.desc}}
-                      </p>
-                      <div class="at-below-post-homepage addthis_tool"></div>
-                    </div>
-                    <div class="pbmit-service-icon-wrapper">
-                      <i
-                        class="pbmit-attorly-icon pbmit-attorly-icon-gavel-2"
-                      ></i>
-                    </div>
-                    <div class="pbmit-service-btn">
-                      <a class="btn-arrow" [href]="'/services/'+slide.id"></a>
-                    </div>
-                  </div>
-                </div>
+    <div class="row g-4">
+      <div
+        class="col-sm-6 col-md-4 col-xl-3"
+        *ngFor="let slide of sliders; let i = index"
+        
+      >
+        <a class="service-card h-100" [href]="'/services/' + slide.id">
+          <div class="d-flex">
+            <div class="">
+              <div class="custom-img-wrapper">
+                <img [src]="slide.img" class="img-fluid" alt="" />
               </div>
-            </article>
-          <!-- </div> -->
+            </div>
+          </div>
+          <div class="service-item">
+            <p style="font-size: 1.2rem; font-weight: 600">{{ slide.name }}</p>
+            <p>
+              {{ slide.desc }}
+            </p>
+          </div>
+        </a>
       </div>
     </div>
   </div>

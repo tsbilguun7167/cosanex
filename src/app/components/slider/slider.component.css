@@ -1,0 +1,97 @@
+.slider-bg {
+  background-image: url("../../../assets/images/slider/bg-mountain2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-content {
+  text-align: left;
+  position: absolute;
+  color: white;
+  padding-inline: 1rem;
+}
+
+.hero-text {
+  font-family: Marcellus;
+  font-size: 4rem; /* Default font size */
+  line-height: 4.5rem;
+  color: #0a1d45;
+  animation: fadeInSide 1s ease-in-out;
+  max-width: 15ch;
+
+  /* opacity: 0; */
+  /* transform: translateY(20px); */
+}
+
+.hero-text span {
+  color: #b89681;
+  text-decoration: underline;
+}
+
+.hero-p-box {
+    /* background-color: rgba(10, 29, 69, 0.5); */
+    padding-inline: 1rem;
+    padding-block: 0.3rem;
+    width: fit-content;
+    margin-top: 2.5rem;
+}
+
+.hero-paragraph {
+  color: #000; /* #0a1d45*/
+  animation: fadeInUp 1s ease-in-out;
+  margin: 0;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+  .hero-text {
+    font-size: 3rem;
+    line-height: 3.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-bg {
+    justify-content: center;
+  }
+  .hero-content {
+    text-align: center;
+  }
+  .hero-text {
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+  }
+  .hero-paragraph {
+    margin-left: 0;
+  }
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInSide {
+  0% {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,9 @@
+.footer-copyright-inner-text {
+    text-align: end;
+}
+
+@media (max-width: 768px) {
+    .footer-copyright-inner-text {
+        text-align: center;
+    }
+  }

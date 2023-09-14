@@ -368,6 +368,7 @@ body {
     position: absolute;
     top: 0;
     width: 100%;
+    max-width: 100%;
     z-index: 30;
 }
 .pbmit-element-team-style-1 .pbminfotech-team-content .pbmit-featured-img-wrapper {

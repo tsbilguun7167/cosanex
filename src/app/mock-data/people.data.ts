@@ -2,7 +2,7 @@
 export const people = [
   {
     id: '01',
-    img: 'assets/images/team/undram1.jpg',
+    img: 'assets/images/team/undram1.png',
     name: 'Undram Lkhagvasuren',
     role: 'Managing Partner',
     about: 'Undram practices in the areas of Corporate, Commercial, Real Estate and Energy and Resources Law and has advised on a wide range of commercial transactions including takeovers, mergers, acquisitions, disposals, capital raising, joint ventures and mining operational agreements. She has conducted comprehensive compliance and due diligence programs in those areas. She as considerable experience in capital market having advised on several Mongolian Stock Exchange listings and IPOs. She also advised Shangri-La International Hotel Management for its local subsidiaries together with team, s China (establishment of the Representative Office in Mongolia and advised in numerous financing transaction), and US Government in acquisition of new mission premises in Ulaanbaatar Mongolia, Golomt Capital Securities, a leading securities brokerage, and underwriter company in Mongolia',

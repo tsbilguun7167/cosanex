@@ -2,7 +2,7 @@
 export const people = [
   {
     id: '01',
-    img: 'assets/images/team/undram1.jpeg',
+    img: 'assets/images/team/undram1.jpg',
     name: 'Undram Lkhagvasuren',
     role: 'Managing Partner',
     about: 'Undram practices in the areas of Corporate, Commercial, Real Estate and Energy and Resources Law and has advised on a wide range of commercial transactions including takeovers, mergers, acquisitions, disposals, capital raising, joint ventures and mining operational agreements. She has conducted comprehensive compliance and due diligence programs in those areas. She as considerable experience in capital market having advised on several Mongolian Stock Exchange listings and IPOs. She also advised Shangri-La International Hotel Management for its local subsidiaries together with team, s China (establishment of the Representative Office in Mongolia and advised in numerous financing transaction), and US Government in acquisition of new mission premises in Ulaanbaatar Mongolia, Golomt Capital Securities, a leading securities brokerage, and underwriter company in Mongolia',
@@ -60,19 +60,6 @@ export const people = [
     about: 'Graduated from the Higher School of Economics in Moscow in 2021. Practical experience in civil, contract and labour law. Worked at the Skolkovo Innovation Center, the Labour Inspectorate in the Republic of Kalmykia.',
     phone: '+(976) 75350835',
     email: 'contact@cosanex.mn',
-    facebook: '',
-    twitter: '',
-    instagram: '',
-    youtube: '',
-  },
-  {
-    id: '06',
-    img: 'assets/images/team/gantushig1.jpeg',
-    name: 'Gantushig Erdenebat',
-    role: 'Junior Associate',
-    about: 'Junior Associate',
-    phone: '+(976) 75350835',
-    email: 'gantushig@cosanex.mn',
     facebook: '',
     twitter: '',
     instagram: '',

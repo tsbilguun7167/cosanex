@@ -81,10 +81,9 @@
         </div>
         <div class="col-lg-8">
           <div class="team-details-wrap">
-            <h4 class="pbmit-title">Personal Info</h4>
-            <p>
-              {{person?.about}}
-            </p>
+            <!-- <h4 class="pbmit-title">Personal Info</h4> -->
+            <div class="about-text" [innerHTML]="person?.about">
+            </div>
           </div>
           <!-- <div class="team-progress">
             <div class="row">
